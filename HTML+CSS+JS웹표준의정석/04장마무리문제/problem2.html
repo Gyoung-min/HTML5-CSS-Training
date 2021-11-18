@@ -1,0 +1,46 @@
+<!-- 1. 4행 3열의 표를 만든다
+2. 1~3행의 첫번째 열을 합친다
+3. 4행의 2열과 3열을 합친다
+4. 화면에 내용이 있는 부분은 제목 셀로 지정합니다 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  table {
+    border: 1px solid;
+    text-align: center;
+  }
+   th, td {
+  border: 1px solid;
+  text-align: center;
+  } 
+</style>
+<body>
+  <table>
+    <caption style="text-align: left;"><h1>수습 국원 지원 양식</h1></caption>
+    <tr>
+      <td rowspan="3" style="width: 100px;"><b>개인 정보</b></td>
+      <td style="width: 100px;"><b>이름</b></td>
+      <td style="width: 200px;"></td>
+
+    </tr>
+    <tr>
+      <td><b>학과/학번</b></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>연락처</b></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>지원 분야</b></td>
+      <td colspan="2"></td>
+    </tr>
+  </table>
+</body>
+</html>
